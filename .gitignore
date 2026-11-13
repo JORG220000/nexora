@@ -1,7 +1,9 @@
 node_modules/
 dist/
+dist-pages/
 qa/
 *.tsbuildinfo
 .DS_Store
 *.log
 .local/
+public/media/globe-capture.png
