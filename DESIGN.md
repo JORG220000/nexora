@@ -1,0 +1,4 @@
+# NEXORA visual direction
+Pinned by the supplied approved brief: “Monochrome Future + Cinematic Luxury + Glassmorphism”, first viewport centred on interactive Earth and “THE WORLD IS YOUR HOME”.
+Space Grotesk for Latin; Manrope Cyrillic companion where the supplied font has no Cyrillic glyphs. Monochrome, restrained frosted navigation, expansive architectural photography, precise hairline borders, small card radii, pill controls. Home is Persuade/Experience; catalogue, account and forms are Operate. No alternative concept round needed: the brief fully specifies visual world and first viewport.
+Dark #08090B / #111316 / #17191D / #F5F5F3 / #9A9DA3. Light #F7F7F5 / #ECEDEA / white / #111214 / #686C72. Semantic CSS tokens, focus visible, readable contrast, reduced-motion and low-power fallbacks. Desktop catalogue 40/60 list/map split; mobile map plus accessible list and filter sheet.

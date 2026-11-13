@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090b" />
+    <meta
+      name="description"
+      content="NEXORA — a demonstration platform for exceptional international real estate."
+    />
+    <link rel="icon" href="/favicon.svg" />
+    <title>NEXORA — The world is your home</title>
+    <script>
+      try {
+        const s = JSON.parse(
+          localStorage.getItem("nexora.settings.v1") || "null",
+        );
+        document.documentElement.dataset.theme =
+          s?.theme ||
+          (matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div
+        style="
+          background: #08090b;
+          color: #fff;
+          min-height: 100vh;
+          display: grid;
+          place-items: center;
+          font: 24px sans-serif;
+          letter-spacing: 0.4em;
+        "
+      >
+        NEXORA
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
